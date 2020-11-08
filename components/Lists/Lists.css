@@ -1,0 +1,22 @@
+.lists {
+    padding-top: 10px;
+    text-align: left;
+}
+
+
+.boardItemContent {
+    word-break: break-all;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 17px;
+    text-align: left;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.messagebody {
+    margin: 10px;
+    background: #fff;
+    padding: 5px;
+}
