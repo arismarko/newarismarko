@@ -10,7 +10,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-content">
-              <p class="title is-4">About me</p>
+              <p class="title is-4">Short Bio</p>
             </div>
           </div>
 
@@ -66,8 +66,8 @@
             Following there are some online contributions like talks or other
             blog posts that I have added at various times. <br />
             <ul>
-              <li><a>Talks</a></li>
-              <li><a>Blogs</a></li>
+              <li><a href="/contributions">Talks</a></li>
+              <li><a href="/contributions">Blogs</a></li>
             </ul>
           </div>
         </div>

@@ -1,5 +1,9 @@
-.socialmedia a {
+.isWhite a {
     color: white;
+}
+
+.isBlack a {
+    color: black;
 }
 
 .socialmedia i {

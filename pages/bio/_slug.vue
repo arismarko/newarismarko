@@ -7,7 +7,7 @@
           <!-- START ARTICLE -->
           <div
             class="card article"
-            style="padding-top: 30px; padding-bottom: 30px"
+            style="padding-top: 20px; padding-bottom: 30px"
           >
             <div class="card-content">
               <div class="columns is-multiline">
@@ -45,8 +45,6 @@
   export default {
     async asyncData({ $content, params }) {
       const jobs = await $content('bio').fetch()
-
-      console.log(jobs);
 
       return { jobs }
     }

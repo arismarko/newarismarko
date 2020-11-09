@@ -15,7 +15,9 @@ export default {
       { rel: 'stylesheet', type:'text/css', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'},
       { rel: 'stylesheet', type:'text/css', href: 'https://unpkg.com/bulma@0.8.2/css/bulma.min.css'},
       { rel: 'stylesheet', type:'text/css', href: '/css/static.css'}
-    ]
+    ],
+    script: [
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -53,3 +55,5 @@ export default {
     },
   }
 }
+
+

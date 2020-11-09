@@ -24,9 +24,9 @@
                       seen below:
                     </p>
 
-                    <Contributions :articles="contributions" title="Contributions" />
+                    <Contributions :articles="contributions" title="Blogs" />
 
-                    <Contributions :articles="conferences" title="Conferences" />
+                    <Contributions :articles="conferences" title="Conferences/Meetups Talks" />
                   </div>
                 </div>
               </div>

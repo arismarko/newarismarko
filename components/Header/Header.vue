@@ -6,15 +6,15 @@
                 <a class="navbar-item" href="../">
                        <img src="/images/logo.png" alt="Logo">
                 </a>
-                <span class="navbar-burger burger" data-target="navbarMenu">
-                      
-                <span></span>
-                <span></span>
+               <span class="navbar-burger" v-on:click="toggleNav" v-bind:class="{ 'is-active': isActive }">
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </span>
             </div>
-            <div id="navbarMenu" class="navbar-menu">
+           <div  class="navbar-end navbar-menu" :class="{ 'is-active': isActive }">
                 <div class="navbar-end">
-                     <nuxt-link to="/" class="navbar-item is-active">
+                     <nuxt-link to="/" class="navbar-item">
                         Home
                     </nuxt-link>
                     <nuxt-link to="/bio" class="navbar-item">
@@ -36,7 +36,6 @@
 
 <script>
 import { mapGetters } from "vuex";
-
 export default {
   data() {
     return {
@@ -44,14 +43,16 @@ export default {
     };
   },
   methods: {
-    async logout() {
-      try {
-        await this.$store.dispatch("logout");
-      } catch (e) {
-        this.formError = e.message;
-      }
+    toggleNav: function() {
+      this.isActive = !this.isActive;
     },
-
+    handleScroll: function() {
+      if(window.scrollY > 10) {
+        this.scroll = true;
+      } else  {
+        this.scroll = false;
+      }
+    }
   },
   computed: {
     toggleBurgerMenu() {
@@ -63,12 +64,9 @@ export default {
 
 <style scoped lang="scss">
   @import "./Header.scss";
-
   .navbar{
     position: fixed;
     background: white;
     width: 100%;
-
   }
 </style>
-
