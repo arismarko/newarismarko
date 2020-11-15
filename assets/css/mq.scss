@@ -13,6 +13,7 @@ $secondary-blue: #041e42;
 //whites, blacks & greys
 $black: #000000;
 
+$white: #fff;
 $dusty-grey: #979797;
 $dusty-grey-darker: #969696;
 $mercury-grey: #e2e2e2;
@@ -26,6 +27,13 @@ $off-white: #f2f2f2;
 $grapefruit-pink: #ff7575;
 $orange: #f66b1c;
 $orange-light: #ffb018;
+
+$title-color: $white !default;
+$subtitle-color: $white;
+
+.title {
+  color: $title-color
+}
 
 html, body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;

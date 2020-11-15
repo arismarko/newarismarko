@@ -13,11 +13,16 @@ html,body {
   
   .hero-body
   {
-    background-image: url('/images/background.jpg');
+    background: rgb(2,0,36);
+    background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 37%, rgba(0,212,255,1) 100%);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
+  }
+
+  .hero-body h1, .hero-body h2 {
+    color: white;
   }
 
   .articles {
