@@ -3,7 +3,7 @@
     <div class="column">
       <div :class="$style.card" class="container">
         <div class="card-image">
-          <figure class="image is-2by1">
+          <figure class="image">
             <img src="/images/home1.jpg" alt="Placeholder image" />
           </figure>
         </div>
@@ -26,7 +26,7 @@
     <div class="column">
       <div :class="$style.card">
         <div class="card-image">
-          <figure class="image is-2by1">
+          <figure class="image">
             <img src="/images/home2.jpg" alt="Placeholder image" />
           </figure>
         </div>
@@ -51,7 +51,7 @@
     <div class="column">
       <div :class="$style.card">
         <div class="card-image">
-          <figure class="image is-2by1">
+          <figure class="image">
             <img src="/images/home3.jpg" alt="Placeholder image" />
           </figure>
         </div>
