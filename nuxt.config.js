@@ -15,7 +15,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', type:'text/css', href: '/css/font-awesome.min.css'},
+      { rel: 'stylesheet', type:'text/css', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'},
       { rel: 'stylesheet', type:'text/css', href: '/css/bulma.min.css'},
       { rel: 'stylesheet', type:'text/css', href: '/css/static.css'}
     ],
