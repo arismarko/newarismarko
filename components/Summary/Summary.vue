@@ -4,7 +4,7 @@
       <div :class="$style.card" class="container">
         <div class="card-image">
           <figure class="image">
-            <img src="/images/home1.webp" alt="Placeholder image" />
+            <img src="/images/home1.jpg" alt="Placeholder image" />
           </figure>
         </div>
         <div class="card-content">
@@ -27,7 +27,7 @@
       <div :class="$style.card">
         <div class="card-image">
           <figure class="image">
-            <img src="/images/home2.webp" alt="Placeholder image" />
+            <img src="/images/home2.jpg" alt="Placeholder image" />
           </figure>
         </div>
         <div class="card-content">
@@ -52,7 +52,7 @@
       <div :class="$style.card">
         <div class="card-image">
           <figure class="image">
-            <img src="/images/home3.webp" alt="Placeholder image" />
+            <img src="/images/home3.jpg" alt="Placeholder image" />
           </figure>
         </div>
         <div class="card-content">
