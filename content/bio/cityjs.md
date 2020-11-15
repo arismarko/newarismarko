@@ -1,5 +1,5 @@
 ---
-name: CityJS Conference, London
+name: CityJS Conference,
 year: Jan 2017 - Present
 jobtitle: Organiser, Founder 
 type: community
