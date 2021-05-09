@@ -21,7 +21,7 @@
                       Currently I am teaching JavaScript at City University of London. From time to time I also do private 
                       1:1 teaching/coaching for people who want to get from a zero level to hero. My idea is to get anyone with no background
                       in computing/programming and slowly progressed them to Frontend Developer position. 
-                      Classes last for two hours and at the moment I am using Zoom and I can teaching anyone around the world.
+                      Classes last for two hours and at the moment I am using Zoom and I can teach anyone around the world.
                       I offer two courses a starter and a more advanced:
                     </p>
                     <br />
