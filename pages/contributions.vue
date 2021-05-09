@@ -40,10 +40,6 @@
 </template>
 
 <script>
-import Summary from "../components/Summary/Summary";
-import Hero from "../components/Hero/Hero";
-import Contributions from "../components/Contributions/Contributions";
-
 export default {
   async asyncData({ $content, params }) {
     const contributions = await $content("contributions").fetch();

@@ -23,6 +23,9 @@
                     <nuxt-link to="/contributions" class="navbar-item">
                         Contributions
                     </nuxt-link>
+                    <nuxt-link to="/teaching" class="navbar-item">
+                        Teaching
+                    </nuxt-link>
                      <nuxt-link to="/contactme" class="navbar-item">
                         Contact me
                     </nuxt-link>
