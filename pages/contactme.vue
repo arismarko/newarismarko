@@ -18,7 +18,7 @@
                       <h1 class="title is-1">Contact me</h1>
                      
                       <p>
-                        Feel free to contact me by  <a mailto="aris.markogiannakis@gmail.com">email</a>
+                        Feel free to contact me by  <a href="mailto=aris.markogiannakis@gmail.com">email</a>
                       </p>
                     
                     </div>
